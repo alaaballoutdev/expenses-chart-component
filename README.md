@@ -36,14 +36,14 @@ Users should be able to:
 
 - ![](./design/mobile-design.png)
 ### Links
-- Live Site URL: [Add live site URL here](https://alaaballoutdev.github.io/expenses-chart-component)
+- Live Site URL: [Live Demo](https://alaaballoutdev.netlify.app)
 
 ## My process
 
 ### Built with
 - [React](https://reactjs.org/) - JS library
 - CSS
-- [react-chartjs-2.js](https://react-chartjs-2.js.org/)-JS library
+- [react-chartjs-2.js](https://react-chartjs-2.js.org/)
 
 
 ### What I learned
