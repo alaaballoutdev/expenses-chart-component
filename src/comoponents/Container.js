@@ -8,7 +8,7 @@ const Container = () => {
         
         }
     useEffect(()=>{
-        return ()=>fetchData();
+    fetchData();
     },[]);  
   
   
