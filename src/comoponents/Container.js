@@ -3,8 +3,12 @@ import BarChart from './BarChart'
 
 const Container = () => {
     const [data,setData]=useState([]);
-    useEffect(()=>{
+    const fetchData= ()=>{
         fetch('data.json').then(res=>res.json()).then(data=>setData(data));
+        
+        }
+    useEffect(()=>{
+        return ()=>fetchData();
     },[]);  
   
   
