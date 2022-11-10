@@ -1,0 +1,141 @@
+:root{
+  --component-width:540px;
+  --component-mobile-width:345px;
+  --border-radius:22px;
+  
+  --soft-red:hsl(10, 79%, 65%);
+  --very-pale-orange:hsl(33, 100%, 98%);
+  --cream:hsl(27, 66%, 92%);
+  --dark-brown:hsl(25, 47%, 15%);
+  --medium-brown:hsl(28, 10%, 53%);
+  --cyan: hsl(186, 34%, 60%);
+}
+
+
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;700&display=swap');
+
+
+
+
+
+body{
+  font-family: 'DM Sans', sans-serif;
+  background-color: var(--cream);
+  
+  
+}
+
+.island{
+  width:var(--component-width);
+  height:125px;
+  background-color:var(--soft-red);
+  margin: auto;
+  margin-top: 120px;
+  padding:35px;
+ 
+  box-sizing: border-box;
+  border-radius: var(--border-radius);
+  line-height: 7px;
+  display: flex;
+  position: relative;
+
+}
+.title-balance{
+  font-size: 16px;
+  color:var(--cream);
+  margin-top: 0px;
+}
+.balance{
+  font-size: xx-large;
+  font-weight: 700;
+  color:var(--very-pale-orange);
+}
+.logo{
+  position: absolute;
+  right:40px;
+  top:40px;
+}
+.container{
+background-color: var(--very-pale-orange);
+height:510px;
+width:var(--component-width);
+margin: auto;
+border-radius: var(--border-radius);
+margin-top: 20px;
+padding: 35px;
+margin-bottom: 200px;
+box-sizing: border-box;
+
+}
+.container-title{
+    font-size: xx-large;
+    font-weight: 700;
+    margin-top: 0px;
+    color: var(--dark-brown);
+
+}
+.h-divider{
+  border-top:1px solid hsla(28, 10%, 53%,0.5);
+}
+
+.total-label{
+  color: var(--medium-brown);
+  font-size: 18px;
+
+}
+.total{
+  font-size: 40px;
+  color: var(--dark-brown);
+  font-weight: 700;
+}
+.piece{
+  line-height: 5px;
+  margin-top: 20px;
+}
+.right-percent{
+  position: absolute;
+  right:0px;
+  margin-top: 40px;
+  text-align: right;
+}
+.footer{
+  display: flex;
+  position: relative;
+}
+.percent{
+  color: var(--dark-brown);
+  font-weight: 700;
+  font-size: 18px;
+}
+@media screen and (max-width:550px){
+  .island{
+    width: var(--component-mobile-width);
+  }
+  .container{
+    width: var(--component-mobile-width);
+    height: 420px
+  }
+  .total{
+    font-size: 30px;
+    color: var(--dark-brown);
+    font-weight: 700;
+  }
+  .logo{
+    position: absolute;
+    right:30px;
+    top:30px;
+    height: 70px;
+    width: 70px;
+  }
+  .balance{
+    font-size:x-large;
+    font-weight: 700;
+    color:var(--very-pale-orange);
+  }
+  .total-label{
+    color: var(--medium-brown);
+    font-size: 14px;
+  
+  }
+
+}
