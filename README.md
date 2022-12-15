@@ -36,7 +36,7 @@ Users should be able to:
 
 - ![](./design/mobile-design.png)
 ### Links
-- Live Site URL: [Live Demo](https://alaaballoutdev.netlify.app)
+- Live Site URL: [Live Demo](https://expensechart-alaaballoutdev.netlify.app)
 
 ## My process
 
